@@ -8,8 +8,8 @@ import './styles.css';
 
 const App = () => {
   const [profiles, setProfiles] = useState([
-    { id: 1, name: 'John Doe', photo: 'src/assets/pexels-moose-photos-170195-1036627.jpg', description: 'A cool person', address: { name: 'John\'s House', latitude: 51.505, longitude: -0.09 } },
-    { id: 2, name: 'Jane Smith', photo: 'src/assets/pexels-pixabay-247322.jpg', description: 'Another cool person', address: { name: 'Jane\'s House', latitude: 51.515, longitude: -0.10 } }
+    { id: 1, name: 'John Doe', photo: 'src/assets/img1.jpg', description: 'A cool person', address: { name: 'John\'s House', latitude: 51.505, longitude: -0.09 } },
+    { id: 2, name: 'Jane Smith', photo: 'src/assets/img2.jpg', description: 'Another cool person', address: { name: 'Jane\'s House', latitude: 51.515, longitude: -0.10 } }
   ]);
   const [searchTerm, setSearchTerm] = useState('');
 
